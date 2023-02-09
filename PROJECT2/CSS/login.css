@@ -1,0 +1,120 @@
+:root{
+    --main-text-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    letter-spacing: 2px;
+}
+body{
+    background: radial-gradient(rgb(48, 52, 61) 50%, 
+    rgb(79, 79, 93));;;
+    background-size: cover;
+    color: aliceblue;
+    font-weight: 500;
+    text-align: center;
+    list-style: none;
+
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.exit {
+    background-color: #b50000;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 25px;
+    justify-content: center;
+
+}
+.exit i {
+    color: rgb(255, 255, 255);
+    margin-left: 2px;
+    margin-top: 1.5px;
+}
+#form-login{
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 5px rgba(255, 255, 255, 0.8);
+}
+#form-login h1{
+    font-family: var(--main-text-font);
+    color: rgb(255, 242, 0);
+}
+.form-heading{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+    border-bottom: 1px solid aliceblue;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-group input{
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.form-group i{
+    color: aliceblue;
+    padding-right: 10px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: aliceblue;
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: aliceblue;
+}
+#eye i{
+    padding-right: 0;
+    cursor: pointer;
+}
+#eyes i{
+    padding-right: 0;
+    cursor: pointer;
+}
+.form-submit{
+    background: transparent;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.form-submit:hover{
+    border: 1px solid #54a0ff;
+    color: rgb(255, 242, 0);
+
+}
+.regi a {
+    font-family: var(--main-text-font);
+    text-transform:uppercase;
+    color: rgb(176, 25, 25);
+    text-decoration: none;
+    font-size: 13px;
+    list-style: none;
+}
+.regi a:hover {
+    color: crimson;
+    transition: all 0.5s ease;
+}
